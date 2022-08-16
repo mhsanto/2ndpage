@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.full_page {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow-y: hidden;
+}
+
+.front-title h2 {
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.front-title h2::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 36px;
+    background-color: orange;
+    bottom: -13px;
+    left: 50%;
+    margin-left: -18px;
+}
+
+.title-sec {
+    margin: 2rem 0;
+}
+
+.main-photo {
+    background: url(https://cdn.shopify.com/s/files/1/0552/1306/4365/files/federico-di-dio-photography-Wstln0400pE-unsplash_1_1950x.jpg?v=1653866533);
+    background-position: center;
+    background-size: cover;
+    height: 75vh;
+    position: relative;
+    margin: 0 2rem;
+}
+
+.main-photo::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.main-photo  .fox_image_content{
+    position: absolute;
+    top: 0;
+    color: white;
+    left: 2rem;
+    top: 2rem;
+}
+.fox_image_content .title h3 {
+    font-weight: bolder;
+    font-size: 1.438rem;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.fox_image_content .title h3::after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 36px;
+    background-color: orange;
+    bottom: -13px;
+    left: 1.1rem;
+    margin-left: -18px;
+}
+.fox_image_content .para{
+    width: 60%;
+    font-weight: .8rem;
+    line-height: 1.8rem;}
+.outside-content .para{
+    padding: 0 1.5rem;
+    width: 70%;
+    margin: 0  auto;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    line-height: 1.9rem;
+    text-align: center;
+}
+.outside-content .para2{
+    padding: 0 1.5rem;
+    width: 70%;
+    line-height: 1.9rem;
+    text-align: center;
+    margin: 0  auto;
+}
+.second-part{
+margin-top: 2rem;
+color: white;
+}
+.main-photo  .second_image_content{
+    position: absolute;
+    top: 0;
+    color: white;
+    left: 2rem;
+    top: 30%;
+}
+.second-part .main-photo{
+    background:url(https://cdn.shopify.com/s/files/1/0552/1306/4365/files/towering-trees-in-misty-forest_1950x.jpg?v=1653872054);
+    background-position: center;
+    background-size: cover;
+    height: 65vh;
+    position: relative;
+    margin: 0 2rem;
+}
+
+.second_image_content .title h3 {
+    font-weight: bolder;
+    font-size: 1.438rem;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.second_image_content .title h3::after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 36px;
+    background-color: orange;
+    bottom: -13px;
+    left: 1.1rem;
+    margin-left: -18px;
+}
+.second_image_content .para{
+    line-height: 1.8rem;
+    width: 60%;
+    font-size: .9rem;
+}
+/* second part ends */
+.outside-second-part .para{
+    padding: 0 1.5rem;
+    width: 70%;
+    margin: 0  auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    line-height: 1.9rem;
+    text-align: center;
+}
+.text-bold{
+    font-weight: bold;
+    display: inline;
+}
+#family-pack .title-sec{
+    padding: 1rem 0;
+}
+.family-content{
+    padding: 0 1.5rem;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.8rem;
+}
+.family-content .para2{
+    margin: 2rem 0;
+}
+.family-content .para3{
+    padding: 2rem 0;
+}
+
+
+/* third part starts here */
+.main-photo  .third_image_content{
+    position: absolute;
+    color: white;
+    left: 2rem;
+    bottom: 0;
+}
+.third-part{
+    margin-top: 5rem;
+    color: white;
+}
+.third-part .main-photo{
+    background:url(https://cdn.shopify.com/s/files/1/0552/1306/4365/files/09EC1235-53C3-4019-97A6-F9CF05A74314_1296x.jpg?v=1653868233);
+    background-size: cover;
+    height: 65vh;
+    position: relative;
+    margin: 0 2rem;
+}
+
+.third_image_content{
+    padding-bottom:2.2rem;
+}
+.third_image_content .title h3 {
+    font-weight: bolder;
+    font-size: 1.438rem;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.third_image_content .title h3::after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 36px;
+    background-color: orange;
+    bottom: -13px;
+    left: 1.1rem;
+    margin-left: -18px;
+}
+.third_image_content .para{
+    width: 85%;
+}
+
+/* third part ends here */
+#newsletter {
+    background-color: #F0F0F0;
+    /* height: 40vh; */
+    width: 95vw;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+#newsletter .title-sec {
+    padding-top: 3rem;
+    text-align: center;
+}
+
+#newsletter .para {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.form-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+
+
+#newsletter #email-form {
+    padding: 1rem;
+    max-width: 500px;
+    width: 31rem;
+    border: none;
+}
+
+#newsletter #email-form::placeholder {
+    font-size: 1rem;
+}
+
+.form-group button {
+    padding: .8rem;
+    background-color: black;
+    border: none;
+    width: 100%;
+    width: 15rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: white;
+    font-weight: lighter;
+    font-size: .9rem;
+    cursor: pointer;
+}
+
+
+@media all and (max-width:768px) {
+    .front-title h2 {
+        font-size: 1rem;
+    }
+    .title h3 {
+      
+        font-size: 1.2rem;
+      
+    }
+    .main-photo {
+       
+        margin: 0 .9rem;
+    }
+
+    .fox_image_content .para{
+        width: 90%;
+        text-align: start;
+        line-height: 1.8rem;
+    }
+    .main-photo  .fox_image_content{
+        left: 1rem;
+    }
+    .main-photo  .second_image_content{
+        position: absolute;
+        top: 0;
+        color: white;
+        left: 5rem;
+        top: 50%;
+    }
+   
+    .outside-content .para{
+        width: 100%;
+        margin-bottom: 0.3rem;
+    }
+    .outside-content .para2{
+        padding: 0 1.5rem;
+        width: 100%;
+        text-align: center;
+        margin: 0  auto;
+    }
+    .main-photo  .second_image_content{
+        top: 0;
+        color: white;
+        left: 1rem;
+        top: 20%;
+    }
+    .second-part .main-photo{
+        margin: 0 .9rem;
+    }
+    
+    .second_image_content .para{
+        line-height: 1.8rem;
+        text-align: start;
+        width: 97%;
+    }
+    .outside-second-part .para{
+        padding: 0 1.5rem;
+        width: 100%;
+        margin: 0  auto;
+        margin-top: 2rem;
+        margin-bottom: 1.5rem;
+        line-height: 1.9rem;
+        text-align: center;
+    }
+    #family-pack .title-sec{
+        padding: 1rem 0;
+        margin: 1rem 0;
+    }
+    .family-content{
+        width: 100%;
+    }
+    .family-content .para2{
+        margin: 1rem 0;
+    }
+    .family-content .para3{
+        padding: 1.5rem 0;
+    }
+    .third-part .main-photo{
+     
+        margin: 0 .9rem;
+    }
+    .main-photo  .third_image_content{
+        
+        left: 1rem;
+    }
+    #newsletter{
+        margin: 1rem auto;
+    }
+    #newsletter .title-sec front-title{
+        padding-top: 3rem;
+        text-align: center;
+    }
+    #newsletter .title-sec .front-title{
+        padding: 0 1.5rem;
+    }
+    .form-group {
+        padding: 1.5rem;
+    }
+
+    #newsletter #email-form {
+        padding: 1rem;
+        min-width: 100%;
+        margin-bottom: 1rem;
+        display: block;
+
+    }
+
+    #newsletter #email-form::placeholder {
+        font-size: 1rem;
+    }
+
+    .form-group button {
+        min-width: 100%;
+    }
+
+}
